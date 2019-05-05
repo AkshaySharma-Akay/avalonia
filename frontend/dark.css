@@ -8,6 +8,7 @@ body {
 /*------------------------------*/
 
 #header {
+    padding:20px 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -48,6 +49,47 @@ body {
     font-size: 14px;
 }
 
+/*------------------------------*/
+/*        #split-block          */
+/*------------------------------*/
+
+#split-block{
+    background-color:#ff9800;
+}
+#split-block img{
+    width:100%;
+    height: auto;
+}
+#split-block h4{
+    font-size: 21px;
+    font-weight: bold;
+    color:#fff;
+    margin-bottom: 15px;
+}
+#split-block p{
+    display: block;
+    color:#3A3335;
+    font-size:14px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom:25px;
+}
+#split-block a{
+    display: inline-block;
+    padding: 7px 15px;
+    margin-right:10px;
+    border-radius: 1px;
+    background-color: #fff;
+    color:#3A3335;
+    font-size:12px;
+    font-weight: bold;
+}
+#split-block a:hover{
+    text-decoration: none;
+}
+
+
+/* card */
 .card {
     margin: 15px 0;
 }
