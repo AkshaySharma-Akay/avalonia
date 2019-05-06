@@ -1,3 +1,8 @@
+/* colors:
+#fff;
+#3A3335
+*/
+
 body {
     background-color: #fff;
     font-family: 'Oswald', sans-serif;
@@ -54,21 +59,26 @@ body {
 /*------------------------------*/
 
 #split-block{
-    background-color:#ff9800;
+    background-image: linear-gradient(to right bottom, #ffe694, #ffe2a1, #ffe0af, #ffdfbd, #ffdfca);
+}
+.split-block-image{
+    background-color:#fff;
+    border-radius: 2px;
 }
 #split-block img{
     width:100%;
     height: auto;
+    border-radius: 2px;
 }
 #split-block h4{
     font-size: 21px;
     font-weight: bold;
-    color:#fff;
+    color:#3B3B3B;
     margin-bottom: 15px;
 }
 #split-block p{
     display: block;
-    color:#3A3335;
+    color:#222;
     font-size:14px;
     word-spacing: 3px;
     letter-spacing: 1px;
@@ -89,6 +99,32 @@ body {
 }
 
 
+/*------------------------------*/
+/*        #work-block        */
+/*------------------------------*/
+
+
+#block-heading{
+    padding:30px 0px 40px; 
+    text-align: center;
+}
+#block-heading h1{
+    margin:0px;
+    font-size:21px;
+    text-align: center;
+}
+#block-heading h1::after{
+    margin-top:3px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-left:calc((100% - 100px)/2);
+    content:"";
+    width:100px;
+    padding:3px;
+    background-color:#ff9800;
+    border-radius: 3px;
+}
 /* card */
 .card {
     margin: 15px 0;
