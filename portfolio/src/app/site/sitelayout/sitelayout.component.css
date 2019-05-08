@@ -1,4 +1,4 @@
-body {
+::ng-deep body {
     background-color: #fff;
     font-family: 'Oswald', sans-serif;
 }
