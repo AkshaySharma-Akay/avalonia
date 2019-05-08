@@ -11,6 +11,8 @@ import { ContactmeComponent } from './site/contactme/contactme.component';
 import { SitelayoutComponent } from './site/sitelayout/sitelayout.component';
 import { DashboardlayoutComponent } from './dashboard/dashboardlayout/dashboardlayout.component';
 import { DashboardhomeComponent } from './dashboard/dashboardhome/dashboardhome.component';
+import { HeaderComponent } from './site/header/header.component';
+import { FooterComponent } from './site/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { DashboardhomeComponent } from './dashboard/dashboardhome/dashboardhome.
     ContactmeComponent,
     SitelayoutComponent,
     DashboardlayoutComponent,
-    DashboardhomeComponent
+    DashboardhomeComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
