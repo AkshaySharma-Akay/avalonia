@@ -1,2 +1,0 @@
-# avalonia
-My First Portfolio
