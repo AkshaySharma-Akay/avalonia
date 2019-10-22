@@ -1,8 +1,5 @@
-
 /*------------------------------*/
-
 /*        #header               */
-
 /*------------------------------*/
 
 #header {
@@ -45,4 +42,18 @@
 
 #header-nav .nav-link {
     font-size: 14px;
+}
+
+
+/*------------------------------*/
+/*          Mobile              */
+/*------------------------------*/
+@media all and (max-width:768px)
+{
+    #header-nav .navbar-brand h6{
+        display: none;
+    }
+    .nav-social-icon{
+        display: none;
+    }
 }
